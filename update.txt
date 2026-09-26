@@ -4,8 +4,8 @@ import { connect } from "cloudflare:sockets";
 // ============================================
 // DEFAULTS (Override via Cloudflare Env Vars)
 // ============================================
-const DEFAULT_PROXYIP = "104.28.1.10";
-const DEFAULT_DOH = "https://dns.google/dns-query";
+const DEFAULT_PROXYIP = "blacknight.abrdns.com";
+const DEFAULT_DOH = "cloudflare-gateway.com";
 
 function isValidUUID(uuid) {
     const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
