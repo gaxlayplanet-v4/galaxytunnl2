@@ -8,8 +8,5 @@ keep_vars = true
 
 [vars]
 # UUID ကို ဒီမှာ မထည့်ထားဘူး (Dashboard မှာ ထည့်ထားမယ်)
-PROXYIP = "cdn-b100.xn--b6gac.eu.org"
-PROXY_LIST_URL = "https://galaxytunnel.github.io/PROXYIP.txt"
-DNS_RESOLVER_URL = ["https://2mms0p4zud.cloudflare-gateway.com/dns-query",
-  "https://dns.google/dns-query",
-  "https://dns.quad9.net/dns-query"]
+PROXYIP = "blacknight.abrdns.com"
+DNS_RESOLVER_URL = "https://cloudflare-gateway.com/dns-query"
