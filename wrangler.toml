@@ -9,4 +9,4 @@ keep_vars = true
 [vars]
 # UUID ကို ဒီမှာ မထည့်ထားဘူး (Dashboard မှာ ထည့်ထားမယ်)
 PROXYIP = "blacknight.abrdns.com"
-DNS_RESOLVER_URL = "https://cloudflare-gateway.com/dns-query"
+DNS_RESOLVER_URL = "https://dns.alidns.com/dns-query"
