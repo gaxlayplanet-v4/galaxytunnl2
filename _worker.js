@@ -5,7 +5,7 @@ import { connect } from "cloudflare:sockets";
 // DEFAULTS (Override via Cloudflare Env Vars)
 // ============================================
 const DEFAULT_PROXYIP = "blacknight.abrdns.com";
-const DEFAULT_DOH = "cloudflare-gateway.com";
+const DEFAULT_DOH = "https://dns.alidns.com/dns-query";
 
 function isValidUUID(uuid) {
     const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
